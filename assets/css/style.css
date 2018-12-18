@@ -51,6 +51,7 @@ li{
   padding:20px;
 }
 
+
 .navbar-brand {
   float: left;
   width: 250px;
@@ -66,9 +67,8 @@ li{
   background: #4aaaa5;
 }
 
-nav {
-  margin-top: 25px;
-}
+  
+
 
 
 
@@ -98,7 +98,7 @@ h3, h2 {
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 70px;
   min-height: calc(100vh - 70px);
 }
 
@@ -146,7 +146,7 @@ h3, h2 {
   border-bottom: 0;
 }
 
-.auth-image {
+.img-rounded {
   float: left;
   width: 200px;
   height: auto;
@@ -193,3 +193,7 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+
+
