@@ -28,9 +28,8 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
-  color: #4aaaa5;
+  font-family: cursive;
+  color: white;
 }
 
 h1 {
@@ -57,14 +56,14 @@ li{
   width: 250px;
   height: 90px;
   padding: 5px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: cursive;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #ffffff;
+  color: white;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: white;
 }
 
   
@@ -77,14 +76,14 @@ li{
 /* footer */
 
 footer {
-  padding: 30px 0;
+  padding: 10px 0;
   clear: both;
   font-size: 12px;
   color: #ffffff;
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: darkgrey;
   height: 50px;
 }
 
@@ -106,9 +105,9 @@ h3, h2 {
   float: left;
   width: 100%;
   max-width: 960px;
-  padding: 30px;
+  padding: 10px;
   margin: 0 0 40px;
-  background: #ffffff;
+  background:linear-gradient(to bottom right, gray, white);
   border: 1px solid #dddddd;
 }
 
@@ -194,6 +193,17 @@ input[type=submit] {
   border: 0 none;
 }
 
+#links{
+  padding:50px;
+  text-align:center;
+}
 
+.linkedin{
+  color:rgb(53, 53, 160);
+}
+
+.github{
+  color:rgb(218, 143, 5);
+}
 
 
